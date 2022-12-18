@@ -1,29 +1,37 @@
 x = input("Write something:")
-if x.isdigit():
-    if int(x) % 2 == 0:
-        print("This is a number")
-        print("Number is even")
+for b in x:
+        if x.isdigit():
+            if int(x) % 2 == 0:
+                print("This is a number")
+                print("Number is even")
 
-    elif int(x) % 2 == 1:
-            print("This is a number")
-            print("Number is odd")
+            else:
+                print("This is a number")
+                print("Number is odd")
 
-elif x.isalpha():
-    if x.islower():
-        print("This is a letter")
-        print("This is uppercase letter")
-    elif x.isupper():
-        print("This is a letter")
-        print("This is a lowercase letter")
-else:
-    print("This is a character")
+        elif x.isalpha():
+            if x.islower():
+                print("This is a letter")
+                print("This is uppercase letter")
+            else:
+                print("This is a letter")
+                print("This is a lowercase letter")
+        else:
+            print("This is a character")
 
-#==============================#
-import time
+        a = input("Press (q):")
+        while a == "q":
+                import time
+                while True:
+                    time.sleep(4.2)
+                    print("I love Python")
 
-while True:
-    time.sleep(4.2)
-    print("I love Python")
+
+
+
+
+
+
 
 
 
