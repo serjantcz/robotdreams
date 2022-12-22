@@ -12,19 +12,19 @@ for a in x:
         elif x.isalpha():
             if x.islower():
                 print("This is a letter")
-                print("This is uppercase letter")
+                print("This is a lowercase letter")
             else:
                 print("This is a letter")
-                print("This is a lowercase letter")
+                print("This is uppercase letter")
         else:
             print("This is a character")
 
-        a = input("Press (q):")
-        while a == "q":
-                import time
-                while True:
-                    time.sleep(4.2)
-                    print("I love Python")
+a = input("Press (q):")
+while a == "q":
+    import time
+    while True:
+        time.sleep(4.2)
+        print("I love Python")
 
 
 
