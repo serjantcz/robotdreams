@@ -1,5 +1,5 @@
 x = input("Write something:")
-for b in x:
+for a in x:
         if x.isdigit():
             if int(x) % 2 == 0:
                 print("This is a number")
